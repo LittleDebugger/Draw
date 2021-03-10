@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.19
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Draw.Core", "Draw.Core\Draw.Core.csproj", "{C06E6F0A-97B4-42F8-909E-12899912712D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Draw.Console", "Draw.Console\Draw.Console.csproj", "{FB915323-27FB-4BCA-ABA2-3A79FAF0B08F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Draw.Console.Tests", "Draw.Tests\Draw.Console.Tests.csproj", "{CE4198F8-98B2-45F3-899E-F8B1CF50375A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draw.Core.Tests", "Draw.Core.Tests\Draw.Core.Tests.csproj", "{ACD09BC1-7F3C-4A39-968E-B5363D40CBFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{10C78E39-A1CF-4AC7-88AD-A559D10DBC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draw.Console.IntegrationTests", "Draw.Console.IntegrationTests\Draw.Console.IntegrationTests.csproj", "{50EE7DC5-8275-4BBA-A6F0-821A8B3C355C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06E6F0A-97B4-42F8-909E-12899912712D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06E6F0A-97B4-42F8-909E-12899912712D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06E6F0A-97B4-42F8-909E-12899912712D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06E6F0A-97B4-42F8-909E-12899912712D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB915323-27FB-4BCA-ABA2-3A79FAF0B08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB915323-27FB-4BCA-ABA2-3A79FAF0B08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB915323-27FB-4BCA-ABA2-3A79FAF0B08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB915323-27FB-4BCA-ABA2-3A79FAF0B08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4198F8-98B2-45F3-899E-F8B1CF50375A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4198F8-98B2-45F3-899E-F8B1CF50375A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4198F8-98B2-45F3-899E-F8B1CF50375A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4198F8-98B2-45F3-899E-F8B1CF50375A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD09BC1-7F3C-4A39-968E-B5363D40CBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD09BC1-7F3C-4A39-968E-B5363D40CBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD09BC1-7F3C-4A39-968E-B5363D40CBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD09BC1-7F3C-4A39-968E-B5363D40CBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EE7DC5-8275-4BBA-A6F0-821A8B3C355C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EE7DC5-8275-4BBA-A6F0-821A8B3C355C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EE7DC5-8275-4BBA-A6F0-821A8B3C355C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EE7DC5-8275-4BBA-A6F0-821A8B3C355C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE4198F8-98B2-45F3-899E-F8B1CF50375A} = {10C78E39-A1CF-4AC7-88AD-A559D10DBC49}
+		{ACD09BC1-7F3C-4A39-968E-B5363D40CBFE} = {10C78E39-A1CF-4AC7-88AD-A559D10DBC49}
+		{50EE7DC5-8275-4BBA-A6F0-821A8B3C355C} = {10C78E39-A1CF-4AC7-88AD-A559D10DBC49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E6272ED-F1AC-469B-BA5D-FC19786B29EE}
+	EndGlobalSection
+EndGlobal
